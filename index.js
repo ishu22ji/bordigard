@@ -4,18 +4,18 @@ const GoalFollow = goals.GoalFollow
 const GoalBlock = goals.GoalBlock
 
 const bot = mineflayer.createBot({
-    host: 'localhost',
-    port: 40947,
-    username: 'pathfinder_Bot'
+    host: 'ishusever.aternos.me',
+    port: 59723,
+    username: 'Ishu_Ka_Bordyguard'
 })
 
 bot.loadPlugin(pathfinder)
 
 function followPlayer() {
-    const playerCI = bot.players['TheDudeFromCI']
+    const playerCI = bot.players['ishubro']
 
     if (!playerCI || !playerCI.entity) {
-        bot.chat("I can't see CI!")
+        bot.chat("I can't see you ishubro!")
         return
     }
 
